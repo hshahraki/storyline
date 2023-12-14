@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001000101" font="Open Sans" controllayout="npnxnanbsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
-    <layout name="pxabnsnfns00001000101" font="Open Sans" controllayout="pxabnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
-    <layout name="npxnabnsnfns00001000101" font="Open Sans" controllayout="npxnabnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
-    <layout name="npnxnanbnsnfns00001000101" font="Open Sans" controllayout="npnxnanbnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
-    <layout name="pxabnsnfns00001000100" font="Open Sans" controllayout="pxabnsnfns00001000100" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
-    <layout name="pxnabsnfns00001000101" font="Open Sans" controllayout="pxnabsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pnxnabsnfns00000000101" font="Open Sans" controllayout="pnxnabsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pnxnanbsnfns00000000101" font="Open Sans" controllayout="pnxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxnanbsnfns00000000101" font="Open Sans" controllayout="pxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="false">
+          <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="bimar48" />
+              <option name="title_text" value="final project 1" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -29,14 +31,14 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="true">
+          <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="remaining" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -69,12 +71,12 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="false">
+          <option name="closed_captions" value="true">
             <options>
               <option name="font" value="Open Sans" />
             </options>
           </option>
-          <option name="settings" value="false" />
+          <option name="settings" value="true" />
           <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="false" />
         </options>
@@ -87,7 +89,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001000101">
+    <control_layout name="npnxnanbsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -103,14 +105,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001000101">
+    <control_layout name="pxabnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -126,14 +128,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001000101">
+    <control_layout name="npxnabnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -149,14 +151,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001000101">
+    <control_layout name="npnxnanbnsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -172,14 +174,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001000100">
+    <control_layout name="pxabnsnfns00000000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -195,21 +197,21 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pxnabsnfns00001000101">
+    <control_layout name="pnxnabsnfns00000000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="true" />
@@ -218,7 +220,53 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -227,7 +275,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001000101">
+    <colorscheme name="pxabnsnfns00000000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1144,7 +1192,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001000101">
+    <string_table name="pxabnsnfns00000000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1310,18 +1358,206 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5fdukKBbuuI" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6XPOmIteFvX" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5fdukKBbuuI.5YWfdP4jnUS" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.6PS1gD4K1Hg" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.6Ay76o1xheq" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.63tFfSGTDBo" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.6NasAVyK73I" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.5uep5eD60KR" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه ، چه تشخیص افتراقی هایی مطرح میشود ؟ (بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.5dnISAqSK1y" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را در خواست میکنید ؟ (ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.5p7FN9p8F4K" displaytext="با توجه به مجموع بررسی ها کدام تشخیص (ها) مطرح است ؟ (ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.5mWb7HzD0es" displaytext="با توجه به تشخیص مطرح شده ، اقدام نهایی کدام است ؟ (ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
-            <slidelink slideid="_player.5fdukKBbuuI.62Uu38X6dbE" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6XPOmIteFvX.5eGdIfzQyaw" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6XPOmIteFvX.6DF5xVAR6ip" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6aZVI5rVXsV" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6aZVI5rVXsV.66na9VuTFEC" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.5m95fG9FRy4" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.69OcDxC7qgz" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6WoE5g0fKfZ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6NEUci0l4cX" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6VpHl4cLe4H" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه ، چه تشخیص افتراقی هایی مطرح میشود ؟ (بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6YoKx3a51ry" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را در خواست میکنید ؟ (ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6k99M29kXig" displaytext="با توجه به مجموع بررسی ها کدام تشخیص (ها) مطرح است ؟ (ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6A7VlBPjtH6" displaytext="با توجه به تشخیص مطرح شده ، اقدام نهایی کدام است ؟ (ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6aZVI5rVXsV.6fmCLuAuPKn" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5mBPL426vot" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5mBPL426vot.6jaXdmmUbxf" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.5jq6Ihm3TBp" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.63PCfoxUezq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.6E1D90nVuCH" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.6Bb7r3VdgF6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.5XiB12aeI3Y" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.6EyedbhLJgL" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(ممکن است بیش از یک پاسخ وجود دارشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.6R8RKOfMKzI" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟(ممکن است بیش از یک پاسخ وجود دارشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.60XmUyaSxjp" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.6OeiZqSq3X0" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5mBPL426vot.6FrzbBHWetf" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6DynDf0NoTc" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DynDf0NoTc.6L0L2PhdFvw" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6T4hHKEcAxt" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6E7Kgfj0xXE" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6dj4Q7C0Bku" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6olekDbC4BU" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(ممکن است بیش از یک پاسخ وجود داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.5z7VzrujJff" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6eePxdNlfrw" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6r9NGw1sMDO" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6DynDf0NoTc.6A3PZfb0BJM" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6A0Qz5rZLol" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6A0Qz5rZLol.5ZkSufHgk9S" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.6r5JEDBsZQw" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.6P82pTdHAZA" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.5zo8xchRBMn" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.5eBOgMsoGGE" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.5hPxkGBGdom" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.6YfWc3qEfRN" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.6ZaladpKdPA" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6A0Qz5rZLol.6gu59dZCk8O" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hy6SRqJJ6P" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hy6SRqJJ6P.6LGXCQdpHj5" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.6drFiXBM0KS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.5Y822jjGgHx" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.6ml8Srtg4dD" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.6ov4QutCBDW" displaytext="با توجه به اطلاعات حاصل در بهترین اقدام پاراکلینک کدام است؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.6bGNAaLJUTr" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.5ke5nsK4fEC" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.6npXseq9Uva" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6hy6SRqJJ6P.64XZYmdhVwi" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6HVafLvSZd6" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6HVafLvSZd6.6k1zD33slV6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.6eRjSK3Wcqb" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.5wqDLs5sC0U" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.5egbuZOIwzu" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.6rSzlhvB6Tf" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.6o4DSqONyL0" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.5kFtHfVY8EX" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.62y1FkW0nAe" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6HVafLvSZd6.5jwk7GNSXDE" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5qa5OLRWMA8" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5qa5OLRWMA8.6DWGrA49wdr" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.5suh0T71V3J" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.5h1G0vrwaik" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.6rYm1FHDQdg" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.6L0eKad9nvT" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.63oWqCbwXOI" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.6aA0obLQrIY" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.5uNXYPJoUxy" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5qa5OLRWMA8.5ngKY30KtUn" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6B1mSjV89ay" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6B1mSjV89ay.5ZG1FMFxKN0" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.6gbup0UxViE" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.64Bd3KF1VLK" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.69KNvil61Rw" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.6ZphV4Sv7dv" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.5avesM0gcnZ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.6N9ws7hRoxZ" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.5w97w6UtBqF" displaytext="با توجه به تشخیص مطرح شده، اولین اقدام بعدی کدام است؟ (تنها یک پاسخ صحیح می باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.6mrp4mQA0mU" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6B1mSjV89ay.5cSFU4C9N1r" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6eGRf0HCQfY" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6eGRf0HCQfY.6C4KJhxCU4W" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.5tyI3HpA0ij" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.5fMqsAvGbdR" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.5lMv0feHDuR" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.5VTfYauwwCR" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.6onkuDEJ353" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.5tFDEqsSx91" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.6KGoURPfO4l" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6eGRf0HCQfY.6VBecjKapvT" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JUZlvclCj7" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JUZlvclCj7.6SP8lDVKHPm" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.5byuPC0nqCS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.5qPocKzywb6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.6ZzWC9PFoBU" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.6X4zjgtI7op" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.679PgfDgERT" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.6PUJYSvVHQa" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.5X0Mb9Zj184" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6JUZlvclCj7.5jl34053dSI" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5bOhqDL3Yxb" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5bOhqDL3Yxb.6ekqoLgb4Q3" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.66ftm2y9oc2" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.6LEP0EQQcWF" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.67Dk84JF9B0" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.5bjrzocAeUS" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.5cazUHm0XGd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.5tlpiE3wLvr" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.6hUItMmrTxF" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد) " expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.6ZADgbsEGuq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5bOhqDL3Yxb.6ZjFUAQLMxT" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6J1VqVjGO66" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6J1VqVjGO66.6VXiG0gsypP" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.6JqeulfdzuZ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.5ai5rGDJ8a3" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.6oe7iU4ZrCQ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.6jOagmKASjs" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.6YFJcnAx7M8" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.5cKHQnXv5re" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص(ها) مطرح است؟ ( ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.6AcDFxNMFgs" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.6ZSk8cg2alb" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6J1VqVjGO66.5Zpwa0Wuh6O" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6AcQW8JKtaP" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6AcQW8JKtaP.5XiXBxeQ51y" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.64rrxxXG33c" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.6BbeOBrcqlO" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.5c5vOwIwqia" displaytext="باتوجه به مجموع اطلاعات حاصل ازشرح حال ومعاینه چه تشخیص افتراقی هایی مطرح میشود؟(بیش ازیک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.6N0p4H6eXUv" displaytext="باتوجه به اطلاعات حاصل دراولین قدم کدام اقدام پاراکلینیک رادرخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.6SyjdZlh8IJ" displaytext="باتوجه به مجموع بررسی ها کدام تشخیص (ها) مطرح است؟(ممکن است بیش ازیک پاسخ داشته باشد)" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.5zHib3mUMbq" displaytext="باتوجه به تشخیص مطرح شده اقدام نهایی کدام است؟" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.5cZPZR2XXlj" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6AcQW8JKtaP.6luemx1F3Gs" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5rpPtcVeDgO" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5rpPtcVeDgO.5vrPFxC1csf" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.5oKFTP4y4Pt" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.6Kc4GBs4SLj" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.5wbxLpUVhTi" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.5YdGoDbdV6Y" displaytext="با توجه به مجموع اطلاعات حاصل از شرح حال و معاینه، چه تشخیص افتراقی هایی مطرح میشود؟(بیش از یک پاسخ وجود دارد)" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.6B86Zpl9l2f" displaytext="با توجه به اطلاعات حاصل در اولین قدم کدام اقدامات پاراکلینک را درخواست میکنید؟" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.6bEEbllpqqd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.6duAO6C0nvl" displaytext="با توجه به تشخیص مطرح شده، اقدام نهایی کدام است؟ (ممکن است بیش از یک پاسخ صحیح باشد) " expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.5ZEoabfV6qe" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rpPtcVeDgO.6SmWhW4GXs7" displaytext="با توجه به مجموع بررسی ها کدام تشخیص مطرح است ؟ (ممکن است بیش از یک پاسخ داشته باشد)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5vGC3d3Ff8X" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5vGC3d3Ff8X.5fpRHG41OAX" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5vGC3d3Ff8X.5VnAbC9G3XW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5vGC3d3Ff8X.5jDkXYC2Wz8" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
